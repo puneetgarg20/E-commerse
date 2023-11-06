@@ -1,0 +1,94 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart .total{
+   margin: 25px;
+   padding: 5px 10px;
+   font-size: 20px;
+   font-style:oblique;
+   color: white;
+   background-color: black;
+   border-radius: 6px;
+}
+.cart h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.cartitem{
+    width: 77%;
+    height: 280px;
+    display: flex;
+
+    align-items: center;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    margin: 30px;
+    padding: 5px;
+
+}
+
+.cartitem img{
+    width: 200px;
+}
+.cartitems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.cartitem .description{
+    margin: 20px;
+    width: 100%;
+    font-size: 30px;
+}
+.description input{
+    text-align: center;
+    width: 20%;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.description button{
+   border-radius: 10px;
+   font-size: 16px;
+   width: 40px;
+   background-color: rgba(163, 190, 234, 0.2);
+   
+
+}
+.description  .plus:hover{
+    cursor: pointer;
+    background-color: green;
+    color: azure;
+}
+
+.description  .minus:hover{
+    cursor: pointer;
+    background-color: red;
+    color: azure;
+}
+.paymentbtn {
+    width: 70px;
+    padding: 8px;
+    font-size: 17px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin: 20px;
+}
+.backtoshopbtn{
+    width: auto ;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin: 20px;
+}
